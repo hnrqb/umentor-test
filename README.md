@@ -5,7 +5,7 @@
 
 - **PHP 5.6**
 - **Composer** (para gerenciamento de dependências)
-- **Servidor Web** (Nginx)
+- **Servidor Web** (Apache ou Nginx)
 - **MySQL** ou outro banco de dados compatível
 
 ## Passos para Configuração
