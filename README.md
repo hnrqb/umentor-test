@@ -1,28 +1,37 @@
-# Kohana PHP Framework
-[![Build Status](https://img.shields.io/github/actions/workflow/status/kilofox/kohana/test.yml?branch=develop)](https://github.com/kilofox/kohana/actions/workflows/test.yml) [![Packagist Downloads](https://img.shields.io/packagist/dt/kilofox/kohana)](https://packagist.org/packages/kilofox/kohana) [![Telegram](https://img.shields.io/badge/chat-on_Telegram-blue)](https://t.me/kohana)
+# Documentação do Projeto umentor-test
+- Projeto desenvolvido em PHP 5.6 utilizando o framework [Kohana](https://kohana.top/3.4/guide/kohana), com suporte adicional de JavaScript.
 
-[Kohana](https://kohana.top) is an elegant, open source, and object oriented HMVC framework built using PHP, by a team of volunteers. It aims to be swift, secure, and small.
+## Requisitos
 
-Released under an [MIT license](https://kohana.top/license), Kohana can be used legally for any open source, commercial, or personal project.
+- **PHP 5.6**
+- **Composer** (para gerenciamento de dependências)
+- **Servidor Web** (Nginx)
+- **MySQL** ou outro banco de dados compatível
 
-## Supported Versions
-| Version    | PHP Compatibility                  | Initial Release     |
-| ---------- | ---------------------------------- | ------------------- |
-| Kohana 3.3 | PHP 5.3, PHP 5.4, PHP 5.5, PHP 5.6 | October 23th, 2012  |
-| Kohana 3.4 | PHP 5.6, PHP 7.0, PHP 7.1          | December 25th, 2018 |
+## Passos para Configuração
 
-## Documentation
-Kohana's documentation can be found at <https://kohana.top/documentation> which also contains an API browser.
+### 1. Clonar o repositório
 
-The `userguide` module included in all Kohana releases also allows you to view the documentation locally. Once the `userguide` module is enabled in the bootstrap, it is accessible from your site via `/index.php/guide` (or just `/guide` if you are rewriting your URLs).
+```bash
+git clone https://github.com/hnrqb/umentor-test.git
+cd umentor-test
+```
 
-## Contributing
-Kohana is an Open Source, community-driven project with plenty of contributors. Join them [contributing code or contributing documentation](https://github.com/kilofox/kohana/blob/master/CONTRIBUTING.md).
+### 2. Instalar as dependências do PHP
+``` bash
+composer install
+```
 
-If you've stumbled across a bug, please help us out by [reporting the bug](https://github.com/kilofox/kohana/issues/new) you have found. Simply log in or register and submit a new issue, leaving as much information about the bug as possible, e.g.
+### 3. Configuração do Banco de Dados
+- Crie um banco de dados no MySQL.
+- Importe o arquivo **database.sql** fornecido.
 
-* Steps to reproduce
-* Expected result
-* Actual result
+### 4. Configuração do Servidor Web:
+- Configure o virtual host no Apache ou Nginx para apontar para o diretório public/ do projeto.
 
-This will help us to fix the bug as quickly as possible, and if you'd like to fix it yourself feel free to [fork us on GitHub](https://github.com/kilofox/kohana) and submit a pull request!
+### 5. Inicie o servidor web e acesse o projeto através do navegador (http://umentor-test.local).
+
+ 
+
+
+
