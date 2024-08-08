@@ -23,7 +23,6 @@ composer install
 ```
 
 ### 3. Configuração do Banco de Dados
-- Crie um banco de dados no MySQL.
 - Importe o arquivo **database.sql** fornecido.
 
 ### 4. Configuração do Servidor Web:
