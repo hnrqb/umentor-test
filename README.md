@@ -1,5 +1,5 @@
 # Documentação do Projeto umentor-test
-- Projeto desenvolvido em PHP 5.6 utilizando o framework [Kohana](https://kohana.top/3.4/guide/kohana), com suporte adicional de JavaScript.
+- Projeto desenvolvido em PHP 5.6 utilizando o framework [Kohana](https://kohana.top/3.4/guide/kohana), com suporte adicional de JavaScript (JQuery).
 
 ## Requisitos
 
